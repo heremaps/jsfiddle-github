@@ -1,0 +1,37 @@
+.log {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  height: 150px;
+  width: 250px;
+  overflow: scroll;
+  background: white;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 12px;
+}
+.log-entry {
+  padding: 5px;
+  border-bottom: 1px solid #d0d9e9;
+}
+.log-entry:nth-child(odd) {
+    background-color: #e1e7f1;
+}
+
+code, h1, h2, h3{
+  color: #124191;
+  letter-spacing: -0.03em;
+}
+body {
+  font-family:"Lucida Grande",Tahoma,sans-serif;
+  color: rgb(102, 102, 102);
+  font-size: 80%;
+}
+b, strong {
+  color: black;
+}
+code {
+  font-weight: 700;
+  font-size: 120%;
+}

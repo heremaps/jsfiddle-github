@@ -1,0 +1,12 @@
+---
+ name: One-Box Search
+ description: Request a list of nearby places based on a query string and display them on a map
+ resources:
+   - https://js.api.here.com/v3/3.0/mapsjs-ui.css
+ normalize_css: no
+ dtd: html 5
+ wrap: d
+ panel_html: 0
+ panel_js: 0
+ panel_css: 0
+ ...

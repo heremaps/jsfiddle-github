@@ -1,0 +1,17 @@
+
+code, h1, h2, h3{
+  color: #124191;
+  letter-spacing: -0.03em;
+}
+body {
+  font-family:"Lucida Grande",Tahoma,sans-serif;
+  color: rgb(102, 102, 102);
+  font-size: 80%;
+}
+b, strong {
+  color: black;
+}
+code {
+  font-weight: 700;
+  font-size: 120%;
+}

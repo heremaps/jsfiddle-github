@@ -1,0 +1,12 @@
+---
+ name: Adding Meta Information layer to the Map
+ description: Retrieve meta information of city labels, transit stations, etc.
+ resources:
+   - https://js.api.here.com/v3/3.0/mapsjs-ui.css
+ normalize_css: no
+ dtd: html 5
+ wrap: d
+ panel_html: 0
+ panel_js: 0
+ panel_css: 0
+ ...

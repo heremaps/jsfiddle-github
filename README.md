@@ -30,6 +30,8 @@ You do not need to clone this repository, just use the links below to navigate t
 * [Map with Pedestrian Route from A to B](http://jsfiddle.net/gh/get/jquery/2.1.0/heremaps/jsfiddle-github/tree/master/map-with-pedestrian-route-from-a-to-b) - Request a walking route from A to B and display it on the map.
 * [Map with Route from A to B using Public Transport](http://jsfiddle.net/gh/get/jquery/2.1.0/heremaps/jsfiddle-github/tree/master/map-with-route-from-a-to-b-using-public-transport) - Request a route from A to B using public transport and display it on the map.
 * [Map with Truck Route from A to B](http://jsfiddle.net/gh/get/jquery/2.1.0/heremaps/jsfiddle-github/tree/master/map-with-truck-route-from-a-to-b) - Request a truck route from A to B and display it on the map.
+* [Marker Clustering](http://jsfiddle.net/gh/get/jquery/2.1.0/heremaps/jsfiddle-github/tree/master/jsfiddle/marker-clustering) - Cluster multiple markers together to better visualize the data
+* [Marker Clustering with Custom Theme](http://jsfiddle.net/gh/get/jquery/2.1.0/heremaps/jsfiddle-github/tree/master/jsfiddle/custom-cluster-theme) - Cluster multiple markers and customize the theme
 * [Marker on the Map](http://jsfiddle.net/gh/get/jquery/2.1.0/heremaps/jsfiddle-github/tree/master/markers-on-the-map) - Display a map highlighting points of interest
 * [Multi-language support](http://jsfiddle.net/gh/get/jquery/2.1.0/heremaps/jsfiddle-github/tree/master/map-multi-language-support) - Display a map with labels in a foreign language
 * [One-Box Search](http://jsfiddle.net/gh/get/jquery/2.1.0/heremaps/jsfiddle-github/tree/master/search-for-places) - Request a list of nearby places based on a query string and display them on a map

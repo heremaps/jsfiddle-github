@@ -2,7 +2,7 @@
 
 This repository holds a series of JavaScript based examples demonstrating the use of the HERE Maps API for JavaScript. It is designed to be consumed by the jsfiddle github API.
 
-You do not need to clone this repository, just use the links below to navigate to [jsfiddle](http://jsfiddle.net).
+> **You do not need to clone this repository, just use the links below to navigate to [jsfiddle](http://jsfiddle.net)**.
 
 ## Maps API for JavaScript 3.x
 

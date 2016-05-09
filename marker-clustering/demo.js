@@ -62,6 +62,12 @@ var behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map));
 var ui = H.ui.UI.createDefault(map, defaultLayers);
 
 // Step 5: request data that will be visualized on a map
+//
+//  For convenience we use the jQuery library make a dummy AJAX call to do this.
+//  For more information see: http://api.jquery.com/jQuery.getJSON/
+//
+//  The jQuery library is available under an MIT license  https://jquery.org/license/
+//
 var url= '/gh/get/response.json/heremaps/jsfiddle-github/master/marker-clustering/';
 $.ajax({
     type: 'GET',

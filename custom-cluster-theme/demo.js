@@ -195,7 +195,7 @@ function getBubbleContent(data) {
 
 // Step 5: Request data that will be visualized on a map.
 //
-//  For convenience we use the jQuery library make a dummy AJAX call to do this.
+//  For convenience we use the jQuery library to make a dummy AJAX call to do this.
 //  For more information see: http://api.jquery.com/jQuery.getJSON/
 //
 //  The jQuery library is available under an MIT license  https://jquery.org/license/

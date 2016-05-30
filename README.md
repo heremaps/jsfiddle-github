@@ -4,6 +4,8 @@ This repository holds a series of JavaScript based examples demonstrating the us
 
 > **You do not need to clone this repository, just use the links below to navigate to [jsfiddle](http://jsfiddle.net)**.
 
+See the [LICENSE](LICENSE) file in the root of this project for license details.
+
 ## Maps API for JavaScript 3.x
 
 * [Adding Meta Information layer to the Map](http://jsfiddle.net/gh/get/jquery/2.1.0/heremaps/jsfiddle-github/tree/master/meta-info-layer) - Retrieve meta information of city labels, transit stations, etc.

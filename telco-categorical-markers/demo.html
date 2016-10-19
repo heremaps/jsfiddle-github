@@ -1,0 +1,15 @@
+<!-- SCRIPTS -->
+<script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-core.js"></script>
+<script type="text/javascript" src="  https://js.api.here.com/v3/3.0/mapsjs-service.js"></script>
+<script type="text/javascript" src="  https://js.api.here.com/v3/3.0/mapsjs-ui.js"></script>
+<script type="text/javascript" src="  https://js.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>
+<script type="text/javascript" src="  https://js.api.here.com/v3/3.0/mapsjs-clustering.js"></script>
+<script type="text/javascript" src="  https://d3js.org/d3.v4.min.js"></script>
+<script type="text/javascript" src="  https://js.datalens.api.here.com/2.0.0/mapsjs-datalens.js"></script>
+
+<!-- BODY -->
+<h1>Visualize Mobile Network Antennae by Providers</h1>
+<p><div>This example displays a visualization of groups of&nbsp;mobile network antennae on a map. &nbsp;We introduce the concept of the Data Lens REST API query which is used to fetch and process the data, and then demonstrate how&nbsp;the Data Lens JavaScript libraries are used to&nbsp;produce the visualization.</div><div><br></div><div>The dataset used for the visualization contains antenna attributes such as its location, provider and technology. &nbsp;(Note that the actual data used here is simulated.) &nbsp;Single antennae are represented by colored circles, while groups of antennae ("clusters") are represented by pie chart symbols ("categorical markers"). &nbsp;These are designed as follows:</div><div><br></div><ul><li>Each single-antenna marker is displayed as a circle, colored by its&nbsp;provider</li><li>Each cluster marker is displayed as a pie chart, with a black inner circle&nbsp;and colored ring&nbsp;segments around the perimeter</li><li>Each cluster marker's inner circle includes a number that&nbsp;indicates the number of antennae in the cluster</li><li>The length of each&nbsp;ring segment&nbsp;indicates the proportion of antennae in the cluster&nbsp;by each provider&nbsp;to the total number of antennae</li></ul><div>The end-user will be able to filter the antennae in the viewport by cell technology (2G, 3G, 4G) using a drop-down list.<br></div><div><br></div></p>
+<hr/>
+<div id="map" style="width: 600px; height: 400px; background: grey"></div>
+

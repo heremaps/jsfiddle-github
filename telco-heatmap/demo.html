@@ -1,0 +1,14 @@
+<!-- SCRIPTS -->
+<script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-core.js"></script>
+<script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-service.js"></script>
+<script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-ui.js"></script>
+<script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>
+<script type="text/javascript" src="https://d3js.org/d3.v4.0.0-alpha.50.min.js"></script>
+<script type="text/javascript" src="https://js.datalens.api.here.com/2.0.0/mapsjs-datalens.js"></script>
+
+<!-- BODY -->
+<h1>Visualize the Distribution of Mobile Network Signal Strengths on a Heat Map</h1>
+<p><div>This example displays a visualization of mobile network signal strength on a map. &nbsp;We introduce the concept of the Data Lens REST API query which is used to fetch and process the data, and then demonstrate how the Data Lens JavaScript libraries are used to produce the visualization.</div><div><br></div><div>The dataset used for the visualization represents a set of geographical points and signal strength measurements taken at each point. &nbsp;(Note that the actual data used here is simulated.) &nbsp;We first aggregate the data points per pixel and, where multiple points are represented on one pixel, we average the points' signal strength measurements. &nbsp;Then, we fetch this data from the Data Lens cloud, and we create a heat map that plots an interpolation of signal strength on the map. &nbsp;We use color-coding to indicate the average signal strengths, and opacity to indicate the confidence in these interpolated averages.<br></div><div><br></div><div>A heat map is a visualization style used to identify discernible geographic clusters and hotspots. &nbsp;It is often used to visually identify patterns in large datasets. &nbsp;Heat maps allow smoothing for interpolation of values, which may include weighted averaging, and can also express the certainty of the interpolation values. &nbsp;A color scale is used to display the different values, and opacity is applied to indicate the certainty of the values.<br><br><br></div></p>
+<hr/>
+<div id="map" style="width: 600px; height: 400px; background: grey"></div>
+

@@ -1,0 +1,127 @@
+
+code, h1, h2 {
+  color: #124191;
+  letter-spacing: -0.03em;
+}
+body {
+  font-family:"Lucida Grande",Tahoma,sans-serif;
+  color: rgb(102, 102, 102);
+  font-size: 80%;
+}
+b, strong {
+  color: black;
+}
+code {
+  font-weight: 700;
+  font-size: 120%;
+}
+.legend {
+    position: absolute;
+    padding: 20px;
+    border-radius: 2px;
+    background-color: rgba(14,24,42,0.75);
+    box-shadow: 0 7px 7px 0 rgba(0,0,0,0.25);
+    width: 200px;
+    top: 20px;
+    right: 20px;
+    font-weight: 100;
+}
+
+.dropdown {
+    position: relative;
+    transition: all 0.3s ease-out;
+}
+
+.dropdown:hover {
+    box-shadow: 0 7px 7px 0 rgba(0,0,0,0.25);
+}
+
+.dropdown__title {
+    border-radius: 3px;
+    background-color: rgba(0,0,0,0.75);
+    padding-left: 10px;
+    border: none;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    text-align: left;
+    position: relative;
+    transition: all 0.3s ease-out;
+    opacity: 0.8;
+}
+
+.dropdown__title:hover {
+    opacity: 1;
+}
+
+.dropdown__title:after {
+    content: '';
+    width: 11px;
+    height: 12px;
+    position: absolute;
+    top: 5px;
+    border: 3px solid gray;
+    border-top: none;
+    border-right: none;
+    background: transparent;
+    transform: rotate(-45deg);
+    left: 85%;
+    opacity: 0.3;
+    transition: all 0.3s ease-out;
+}
+
+.dropdown__title:hover:after {
+    opacity: 1;
+    border-color: #00c9ff;
+}
+
+.dropdown__content {
+    position: absolute;
+    width: 100%;
+    border-radius: 0 0 2px 2px;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+    box-shadow: 0 7px 7px 0 rgba(0,0,0,0.25);
+    /*display:none;*/
+}
+
+.dropdown:hover .dropdown__content {
+    opacity: 1;
+    background-color: rgba(0,0,0,0.75);
+    z-index: 2;
+}
+
+.dropdown__option {
+    border-top: 1px solid black;
+    display: block;
+    padding: 5px 15px;
+    color: white;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+.dropdown__option:hover {
+    background-color: #00c9ff;
+    color: black;
+}
+
+.categories {
+    color: white;
+}
+
+.categories__item {
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+.categories__bullet {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-right: 8px;
+}

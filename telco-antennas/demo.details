@@ -1,0 +1,13 @@
+---
+ name: Visualize Mobile Network Antennae by Technology
+ description: Visualize antennae for telecommunications mobile network operators, colored by technology and by azimuth
+ resources:
+   - https://js.api.here.com/v3/3.0/mapsjs-ui.css
+   - https://apps.datalens.api.here.com/jsapi/examples/antennae/example.css
+ normalize_css: no
+ dtd: html 5
+ wrap: d
+ panel_html: 0
+ panel_js: 0
+ panel_css: 0
+ ...

@@ -1,0 +1,15 @@
+<!-- SCRIPTS -->
+<script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-core.js"></script>
+<script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-service.js"></script>
+<script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-ui.js"></script>
+<script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>
+<script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-clustering.js"></script>
+<script type="text/javascript" src="https://d3js.org/d3.v4.0.0-alpha.50.min.js"></script>
+<script type="text/javascript" src="https://js.datalens.api.here.com/2.0.0/mapsjs-datalens.js"></script>
+
+<!-- BODY -->
+<h1>Visualize Mobile Network Antennae by Technology</h1>
+<p><div>This example displays a visualization of mobile network antennae on a map. &nbsp;We introduce the concept of the Data Lens REST API query which is&nbsp;used to fetch and process the data, and then demonstrate how the Data Lens&nbsp;JavaScript libraries are used to&nbsp;produce the visualization.<br><br>The dataset used for the visualization contains antenna attributes such as its location, direction ("azimuth") and technology. &nbsp;(Note that the actual data used here&nbsp;is simulated.) &nbsp;Each antenna symbol is&nbsp;designed as follows:<br><br></div><ul><li>Antennae are displayed as one or more&nbsp;line segments, each of a&nbsp;solid color.</li><li>Each segment represents a cell.</li><li>The direction of the segment is the azimuth of the cell.</li><li>Different colors represent the cell technologies.</li><li>The dot in the middle of the symbol represents the antenna's location.</li></ul>The end-user will be able to&nbsp;control the visibility of cells by toggling the cell technology (2G, 3G, 4G) in the viewport.<br></p>
+<hr/>
+<div id="map" style="width: 600px; height: 400px; background: grey"></div>
+

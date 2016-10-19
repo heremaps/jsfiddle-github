@@ -1,0 +1,180 @@
+
+code, h1, h2 {
+  color: #124191;
+  letter-spacing: -0.03em;
+}
+body {
+  font-family:"Lucida Grande",Tahoma,sans-serif;
+  color: rgb(102, 102, 102);
+  font-size: 80%;
+}
+b, strong {
+  color: black;
+}
+code {
+  font-weight: 700;
+  font-size: 120%;
+}
+.heatmap-legend {
+    background-color: rgba(14, 24, 42, 0.75);
+    border-radius: 2px;
+    box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.25);
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 280px;
+}
+
+.heatmap-legend .heading {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.heatmap-legend .paragraph {
+    font-size: 14px;
+    margin: 5px 0;
+    opacity: 0.75;
+    margin-bottom: 10px;
+}
+
+.heatmap-legend .color-legend {
+    margin-top: 8px;
+}
+
+.heatmap-legend .color-legend span {
+    color: white;
+    font-size: 12px;
+}
+
+.heatmap-legend .color-legend .density-color-scale{
+    height: 14px;
+    margin-top: 2px;
+    background: -webkit-linear-gradient(left, blue 0%, gold 30%, orange 60%, red 100%);
+    background: linear-gradient(90deg, blue 0%, gold 30%, orange 60%, red 100%);
+}
+
+.heatmap-legend .color-legend .signal-color-scale{
+    height: 14px;
+    margin-top: 2px;
+    background: -webkit-linear-gradient(left, rgba(158, 1, 66, 0.85) 0%, rgba(238, 100, 69, 0.85) 14%, rgba(250, 177, 88, 0.85) 28%, rgba(243, 250, 173, 0.85) 42%, rgba(243, 250, 173, 0.85) 56%, rgba(199, 250, 173, 0.85) 70%, rgba(152, 213, 163, 0.85) 85%, rgba(92, 183, 169, 0.85) 100%);
+    background: linear-gradient(90deg, rgba(158, 1, 66, 0.85) 0%, rgba(238, 100, 69, 0.85) 14%, rgba(250, 177, 88, 0.85) 28%, rgba(243, 250, 173, 0.85) 42%, rgba(243, 250, 173, 0.85) 56%, rgba(199, 250, 173, 0.85) 70%, rgba(152, 213, 163, 0.85) 85%, rgba(92, 183, 169, 0.85) 100%);
+}
+
+.heatmap-legend .dropdown {
+    position: relative;
+    transition: all 0.3s ease-out;
+}
+
+.heatmap-legend .dropdown:hover {
+    box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.25);
+}
+
+.heatmap-legend .custom-dropdown {
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    border: none;
+    height: 30px;
+    color: white;
+    text-align: left;
+    padding: 0 15px;
+    position: relative;
+    transition: all 0.3s ease-out;
+}
+
+.heatmap-legend .custom-dropdown:focus {
+    outline: none;
+}
+
+.heatmap-legend .custom-dropdown:hover {
+    opacity: 1;
+}
+
+.heatmap-legend .custom-dropdown:after {
+    content: '';
+    width: 11px;
+    height: 12px;
+    position: absolute;
+    top: 5px;
+    border: 3px solid gray;
+    border-top: none;
+    border-right: none;
+    background: transparent;
+    transform: rotate(-45deg);
+    left: 90%;
+    opacity: 0.3;
+    transition: all 0.3s ease-out;
+}
+
+.heatmap-legend .custom-dropdown:hover:after {
+    opacity: 1;
+    border-color: #00c9ff;
+}
+
+.heatmap-legend .dropdown-content {
+    border-radius: 0 0 2px 2px;
+    box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    transition: all 0.3s ease-out;
+    width: 100%;
+    z-index: 1000;
+}
+
+.heatmap-legend .dropdown-content div {
+    background-color: rgba(0, 0, 0, 0.75);
+    border-top: 1px solid black;
+    color: white;
+    cursor: pointer;
+    display: block;
+    padding: 5px 15px;
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+}
+
+.heatmap-legend  .dropdown-content div:hover {
+    background-color: #00c9ff;
+    color: black;
+    transition: all 0.05s ease-out;
+}
+
+.heatmap-legend .open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.heatmap-legend .cd-open {
+    border-radius: 2px 2px 0 0;
+}
+
+.heatmap-legend .heatmap-legend-break:last-child {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.heatmap-legend .heatmap-legend-break {
+    width: 14.28%;
+    height: 20px;
+    float: right;
+}
+
+.heatmap-legend .heatmap-legend-v {
+    position: relative;
+    bottom: 22px;
+    color: white;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+}
+
+.heatmap-legend .heatmap-legend-paragraph {
+    font-size: 14px;
+    margin: 5px 0;
+    opacity: 0.75;
+    margin-bottom: 30px;
+}

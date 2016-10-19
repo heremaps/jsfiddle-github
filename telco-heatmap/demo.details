@@ -1,0 +1,13 @@
+---
+ name: Visualize the Distribution of Mobile Network Signal Strengths on a Heat Map
+ description: Visualize the distribution of averaged signal strength measurements on a heat map
+ resources:
+   - https://js.api.here.com/v3/3.0/mapsjs-ui.css
+   - https://apps.datalens.api.here.com/jsapi/examples/heatmapDB/example.css
+ normalize_css: no
+ dtd: html 5
+ wrap: d
+ panel_html: 0
+ panel_js: 0
+ panel_css: 0
+ ...

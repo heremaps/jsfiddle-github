@@ -1,10 +1,24 @@
 # jsFiddle Examples
 
-This repository holds a series of JavaScript based examples demonstrating the use of the HERE Maps API for JavaScript. It is designed to be consumed by the jsfiddle github API.
+This repository holds a series of code examples demonstrating the use of JavaScript-based APIs available from **HERE.** It is designed to be consumed by the JSFiddle github API.
 
-> **You do not need to clone this repository, just use the links below to navigate to [jsfiddle](http://jsfiddle.net)**.
+> **You do not need to clone this repository, just use the links below to navigate to [jsfiddle.net](http://jsfiddle.net)**.
 
 See the [LICENSE](LICENSE) file in the root of this project for license details.
+
+Examples for the following APIs are available within this repository:
+
+* [Data Lens](https://datalens.here.com)
+* [Maps API for JavaScript 3.x](https://developer.here.com/develop/javascript-api)
+
+
+## Data Lens
+
+* [Visualize Mobile Network Antennae by Providers](http://jsfiddle.net/gh/get/jquery/2.1.0/heremaps/jsfiddle-github/tree/master/telco-categorical-markers) - Visualize antennae for telecommunications mobile network operators, grouped by provider
+* [Visualize Mobile Network Antennae by Technology](http://jsfiddle.net/gh/get/jquery/2.1.0/heremaps/jsfiddle-github/tree/master/telco-antennas) - Visualize antennae for telecommunications mobile network operators, colored by technology and by azimuth
+* [Visualize the Distribution of Averaged Mobile Network Signal Strengths on a Raster Map](http://jsfiddle.net/gh/get/jquery/2.1.0/heremaps/jsfiddle-github/tree/master/telco-rastermap) - Visualize the distribution of aggregated and averaged signal strength measurements on a raster map
+* [Visualize the Distribution of Mobile Network Signal Strengths on a Heat Map](http://jsfiddle.net/gh/get/jquery/2.1.0/heremaps/jsfiddle-github/tree/master/telco-heatmap) - Visualize the distribution of averaged signal strength measurements on a heat map
+
 
 ## Maps API for JavaScript 3.x
 

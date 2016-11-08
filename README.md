@@ -4,12 +4,15 @@ This repository holds a series of code examples demonstrating the use of JavaScr
 
 > **You do not need to clone this repository, just use the links below to navigate to [jsfiddle.net](http://jsfiddle.net)**.
 
-See the [LICENSE](LICENSE) file in the root of this project for license details.
-
 Examples for the following APIs are available within this repository:
 
 * [Data Lens](https://datalens.here.com)
 * [Maps API for JavaScript 3.x](https://developer.here.com/develop/javascript-api)
+
+
+## License
+
+Unless otherwise noted in `LICENSE` files for specific files or directories, the [LICENSE](LICENSE) in the root applies to all content in this repository.
 
 
 ## Data Lens
